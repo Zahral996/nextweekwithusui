@@ -2,14 +2,13 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import LanguageMenu from './LanguageMenu'; 
 import Button from '@/components/shared/button';
 
 const Header = () => {
-    const handleLanguageChange = (language: string) => {
-        console.log(`Selected language: ${language}`);
-        // Implement your language switching logic here (e.g., updating state or context)
-    };
+    // const handleLanguageChange = (language: string) => {
+    //     console.log(`Selected language: ${language}`);
+    //     // Implement your language switching logic here (e.g., updating state or context)
+    // };
 
     return (
         <header className="w-full flex flex-row justify-between items-center px-10 py-2 border-b-[8px] border-double border-teal-800">
